@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  flex: 0 0 auto;
+  background: #0074D9;
+  padding: 1rem;
+}
+
+.editor {
+  flex: 1 1 auto;
+}
+
+.editor textarea {
+  width: 100%;
+  height: 100%;
+  font: inherit;
+  border: none;
+  padding: .5rem
+}
+
+footer {
+  flex: 0 0 auto;
+  background: #0074D9;
+  padding: 1rem;
+}
+
+
+/* demo styles */
+html,
+body {
+  font-family: sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
